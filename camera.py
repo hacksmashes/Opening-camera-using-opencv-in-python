@@ -1,6 +1,6 @@
 import cv2
 
-cam=cv2.VideoCapture(0)
+cam=cv2.VideoCapture(0)            # if u are using webcam means type 0, incase u are using additional camera means then change it to 1
 print("opening camera...")
 print("press esc button to turn off the camera")
 while True:
